@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Finder</title>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="search_logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="header">
+  <h1>Movie Finder<h1>
+  </div>
+  <div id="input">
+    <input type="text" id="moviename" placeholder="Enter a movie name">
+    <button onclick="show()" id="button">Search</button>
+    <div id="validator">
+      <div id=validator1>
+        Movie name field can't be blank!
+      </div>
+    </div>
+  </div>
+  <div id="display-data">
+    <p id="data">
+      <span>Title: </span>
+      <span id="movie-title"></span>
+    </p>
+    <br>
+    <div class="poster-div">
+      <img id="poster" src="">
+    </div>
+    <div class="movie-details">
+      <p>
+        <span>Released: </span>
+        <span id="released"></span>
+      </p>
+      <p>
+        <span>Runtime: </span>
+        <span id="runtime"></span>
+      </p>
+      <p>
+        <span>Language: </span>
+        <span id="language"></span>
+      </p>
+      <p>
+        <span>IMDb Rating: </span>
+        <span id="imdb"></span>
+      </p>
+      <p>
+        <span>Genre: </span>
+        <span id="genre"></span>
+      </p>
+      <p>
+        <span>Director: </span>
+        <span id="director"></span>
+      </p>
+      <p>
+        <span>Actor: </span>
+        <span id="actors"></span>
+      </p>
+      <p>
+        <span>Writer: </span>
+        <span id="writers"></span>
+      </p>
+      <p>
+        <span>Plot: </span>
+        <span id="plot"></span>
+      </p>
+      <p>
+        <span>Awards: </span>
+        <span id="awards"></span>
+      </p>
+    </div>
+  </div>
+  <div id="error">
+    <img id="errorimage" src="error.jpg">
+    <p style="color:red">Looks like either you have typed something wrong or the name doesn't exist.</p>
+  </div>
+  <div id="footer">
+    Created by Gaurav Pratap Singh
+  </div>
+</body>
+</html>
