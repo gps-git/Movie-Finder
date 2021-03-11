@@ -71,6 +71,7 @@ h1{
 #poster{
   height: 100%;
   width: 100%;
+  color: white;
   border: white 2px solid;
 }
 .movie-details{
